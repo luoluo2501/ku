@@ -1,0 +1,163 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.style_red {
+    color: #c81523;
+}
+
+header .logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    padding: 0 10px;
+    height: 42px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    line-height: 42px;
+}
+
+.registerarea .login {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.reg_form .error {
+    color: red;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/error.jfif);
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    background-image: url(../images/success.jfif);
+}
+
+.safe em {
+    padding: 0 12px;
+}
+
+.safe .weak {
+    color: white;
+    background-color: rgb(222,
+            17,
+            17);
+}
+
+.safe .middle {
+    color: white;
+    background-color: rgb(64,
+            184,
+            63);
+}
+
+.safe .strong {
+    color: white;
+    background-color: rgb(247,
+            145,
+            0);
+}
+
+.safe {
+    padding-left: 166px;
+}
+
+.aggree {
+    padding-left: 95px;
+}
+
+.aggree input {
+    vertical-align: middle;
+}
+
+.aggree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: rgb(222,
+            17,
+            17);
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+
+footer .mod_copyrights {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer .mod_copyrights .links ul {
+    margin-left: 110px;
+}
+
+footer .links ul li {
+    float: left;
+}
+
+footer .links ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 4px 15px 0;
+}
+
+footer .copyrights {
+    margin-top: 18px;
+    line-height: 18px;
+}
